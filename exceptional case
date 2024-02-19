@@ -1,0 +1,11 @@
+void main()
+{
+    int a=1;
+    while(a!=8)
+    {
+        printf("hello  ");
+        a=a+3;           //outputs infinite loop
+    }
+    getch();
+
+}
